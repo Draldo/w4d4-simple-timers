@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 Log.d(TAG, "run: ");
+                mProgressBar.setVisibility(View.INVISIBLE);
             }
         }, 1000);
 
